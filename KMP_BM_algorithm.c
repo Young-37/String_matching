@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
 	scanf("%s", &virusCode);
 	rewind(stdin);
 
-	//////////////// ¾Ç¼ºÄÚµå ÆĞÅÏ »ı¼º ////////////////
+	//////////////// ì•…ì„±ì½”ë“œ íŒ¨í„´ ìƒì„± ////////////////
 	isStop = FALSE;
 	for (i = 0; i < XSIZE; i++)
 	{
@@ -94,7 +94,7 @@ int main(int argc, char* argv[])
 	endTime = clock();
 	printf("\nBM Time: %.3lf ms\n", (double)(endTime - startTime));
 	
-	printf("\nÇÁ·Î±×·¥À» Á¾·áÇÏ·Á¸é ¾Æ¹«Å°³ª ´­·¯ÁÖ¼¼¿ä...\n");
+	printf("\ní”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•˜ë ¤ë©´ ì•„ë¬´í‚¤ë‚˜ ëˆŒëŸ¬ì£¼ì„¸ìš”...\n");
 	getch();
 	
 	printf("Thank you :)\n");
@@ -241,7 +241,7 @@ int MAX(int x, int y)
 	}
 }
 
-//////////////// KMP ½ÇÇà ////////////////
+//////////////// KMP ì‹¤í–‰ ////////////////
 void GetFileListKMP(char* path, char virusPattern[XSIZE][XSIZE], int PatternSize)
 {
 	int numKMPVirusO = 0;
@@ -326,7 +326,7 @@ void GetFileListKMP(char* path, char virusPattern[XSIZE][XSIZE], int PatternSize
 	fclose(KMPresult);
 }
 
-//////////////// BM ½ÇÇà ////////////////
+//////////////// BM ì‹¤í–‰ ////////////////
 void GetFileListBM(char* path, char virusPattern[XSIZE][XSIZE], int PatternSize)
 {
 	int numBMVirusO = 0;
