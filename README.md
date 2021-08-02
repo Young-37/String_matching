@@ -9,10 +9,10 @@ KMP, Boyer-Moore 을 활용하여 프로그램 내 악성코드 패턴 탐지
 - ex. 악성코드 = abcd123!@, 악성코드 패턴의 길이 = 4 -> 악성코드 패턴 = [abcd, bcd1, cd12, ...]
 
 ### Output: 바이러스 패턴을 가진 프로그램 이름 및 개수, 바이러스 패턴을 가지지 않은 프로그램 이름 및 개수, 각 알고리즘(KMP, BM)의 총 실행시간
-<br>
+<br><br>
 프로그램 실행 예시
 ![image](https://user-images.githubusercontent.com/67675422/127845499-202c04f2-63a6-42d4-9716-012a3a2b183b.png)
 
-<br>
+<br><br>
 programcode: 예시 프로그램 코드
 .exe: 실행파일
